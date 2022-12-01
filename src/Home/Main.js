@@ -200,6 +200,12 @@ const Content = styled.div`
 `;
 
 function Main() {
+	const [showModal, setShowModal] = useState("close");
+
+	const clickHandler = (event) => {
+		event.preventDefault();
+	};
+
 
 	return (
 		<Container>
