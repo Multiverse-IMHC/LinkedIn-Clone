@@ -1,12 +1,14 @@
 import React from "react";
-import SignIn from "./routes/signin/signin.component";
+import Home from "./Home/Home"
+import Header from "./Home/Header"
 
 function App() {
-  return (
-    <div>
-      <SignIn />
-    </div>
-  );
+  return <div>
+    <Header/>
+    <Home/>
+  </div>;
 }
 
 export default App;
+
+
