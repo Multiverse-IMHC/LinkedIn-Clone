@@ -218,26 +218,8 @@ function Header() {
 						</NavList>
 						<NavList>
 							<a href="/feed">
-								<img src="../images/nav-network.svg" alt="" />
-								<span>My Network</span>
-							</a>
-						</NavList>
-						<NavList>
-							<a href="/feed">
 								<img src="../images/nav-jobs.svg" alt="" />
 								<span>Jobs</span>
-							</a>
-						</NavList>
-						<NavList>
-							<a href="/feed">
-								<img src="../images/nav-messaging.svg" alt="" />
-								<span>Messaging</span>
-							</a>
-						</NavList>
-						<NavList>
-							<a href="/feed">
-								<img src="../images/nav-notifications.svg" alt="" />
-								<span>Notifications</span>
 							</a>
 						</NavList>
 						<User>
