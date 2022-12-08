@@ -165,23 +165,6 @@ function Left() {
 					</span>
 				</Item>
 			</ArtCard>
-			<CommunityCard>
-				<a>
-					<span>Groups</span>
-				</a>
-				<a>
-					<span>
-						Events
-						<img src="/images/plus-icon.svg" alt="" />
-					</span>
-				</a>
-				<a>
-					<span>Follow Hashtags</span>
-				</a>
-				<a>
-					<span>Discover More</span>
-				</a>
-			</CommunityCard>
 		</Container>
 	);
 }
