@@ -2,10 +2,21 @@ const {Sequelize} = require('sequelize');
 const {sequelize} = require('../db');
 
 const Post = sequelize.define('Post', {
-    postId: {type: Sequelize.INTEGER,
-        autoIncrement: true, primaryKey:true},
     name: Sequelize.STRING,
-    text: Sequelize.STRING,
+    text: Sequelize.STRING
+});
+
+const User = sequelize.define('User', {
+    userid: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER
+      },
+    firstName: Sequelize.STRING,
+    lastName: Sequelize.STRING,
+    email: Sequelize.STRING,
+    password: Sequelize.STRING,
 });
 
 const User = sequelize.define('User', {
@@ -32,4 +43,3 @@ Post.associate = (models) => {
 
 
 module.exports = Post;
-module.exports = User;

@@ -18,7 +18,10 @@ function SignInForm() {
   const signInWithGoogle = async () => {
     const { user } = await signInWithGooglePopup();
     await createUserDocumentFromAuth(user);
-    console.log(user);
+    // console.log(user.uid);
+    if (user.uid) {
+      navigate("/home");
+    }
   };
 
   const resetFormFields = () => {
