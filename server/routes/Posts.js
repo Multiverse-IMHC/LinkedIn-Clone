@@ -2,7 +2,7 @@ const express = require('express');
 const { Post } = require('react-axios');
 const router = express.Router();
 
-const { Item } = require("../models");
+const { Post } = require("../models");
 
 //Post 
 router.post("/", async (req, res, next) => {
