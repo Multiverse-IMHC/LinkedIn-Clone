@@ -1,0 +1,78 @@
+import React from "react";
+import styled from "styled-components";
+import JobsLeft from "./JobsLeft";
+import JobsMain from "./JobsMain";
+import Header from "../Home/Header"
+
+const Container = styled.div`
+	max-width: 100%;
+`;
+
+const Content = styled.div`
+	max-width: 1128px;
+	margin: auto;
+`;
+
+const Section = styled.section`
+	min-height: 50px;
+	margin: 16px 0 -30px;
+	box-sizing: content-box;
+	text-align: center;
+	text-decoration: underline;
+	display: flex;
+	justify-content: center;
+	h5 {
+		color: #0a66c2;
+		font-size: 14px;
+		margin-block-start: 0;
+		margin-block-end: 0;
+		a {
+			font-weight: 700;
+		}
+	}
+	p {
+		font-size: 14px;
+		color: #434649;
+		margin-block-start: 0;
+		margin-block-end: 0;
+		font-weight: 600;
+	}
+
+	@media (max-width: 768px) {
+		flex-direction: column;
+		padding: 0 5px;
+		margin: 16px 0;
+	}
+`;
+
+const Layout = styled.div`
+	display: grid;
+	grid-template-areas: "left main";
+	column-gap: 25px;
+	row-gap: 25px;
+	margin: 25px 0;
+	@media (max-width: 768px) {
+		display: flex;
+		flex-direction: column;
+		padding: 0 5px;
+	}
+`;
+
+function Jobs() {
+	return (
+		<Container>
+			<Header/>
+			<Content>
+				<Section>
+					<p>Jobs</p>
+				</Section>
+				<Layout>
+					<JobsLeft />
+					<JobsMain />
+				</Layout>
+			</Content>
+		</Container>
+	);
+}
+
+export default Jobs;
