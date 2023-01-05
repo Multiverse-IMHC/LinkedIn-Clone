@@ -1,0 +1,7 @@
+.jobsHeadings{
+    display: flex;
+    justify-content: space-between;
+}
+.apply{
+    margin-top: 10px;
+}
