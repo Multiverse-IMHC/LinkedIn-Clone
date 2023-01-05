@@ -22,6 +22,7 @@ const UserInfo = styled.div`
 	padding: 12px 12px 16px;
 	word-wrap: break-word;
 	word-break: break-word;
+	img: 
 `;
 
 const CardBackground = styled.div`
@@ -142,6 +143,7 @@ function Left() {
 			<ArtCard>
 				<UserInfo>
 					<CardBackground />
+					<img src="/images/gettyimages.svg" alt="" width="64" height="64" />
 					<a>
 						<Link>Welcome</Link>
 					</a>

@@ -4,7 +4,7 @@ import Header from "./Home/Header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SignInPage from "./components/Login/SignInPage";
 import SignupForm from "./components/Signup.js/SignupForm";
-import "./app.css";
+
 
 function App() {
   return (
