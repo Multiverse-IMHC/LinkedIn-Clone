@@ -143,7 +143,7 @@ function Left() {
 			<ArtCard>
 				<UserInfo>
 					<CardBackground />
-					<img src="/images/gettyimages.svg" alt="" width="64" height="64" />
+					<img src={require("../images/user.svg")} alt="" width="64" height="64" />
 					<a>
 						<Link>Welcome</Link>
 					</a>
