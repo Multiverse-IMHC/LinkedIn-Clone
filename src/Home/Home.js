@@ -62,7 +62,7 @@ function Home() {
 		<Container>
 			<Content>
 				<Section>
-					<p>Title</p>
+					<p>Home</p>
 				</Section>
 				<Layout>
 					<Left />
